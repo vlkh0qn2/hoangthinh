@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+a
+{
+	text-decoration: none;
+}
+.nav-left ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex
+}
+.logo
+{
+	text-align: center;
+}
+.nav-left ul li a
+{
+	text-transform: capitalize;
+	color: #333;
+	padding-right: 16px;
+	line-height: 31px;
+}
+.nav-right
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.list-icon
+{
+	margin-left: 20px;
+}
+.list-icon i
+{
+	line-height: 31px;
+}
+.nav-fixtop
+{
+	margin: 20px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+#carouselExampleIndicators
+{
+	z-index: 1;
+}
+@media (max-width: 991px) {
+  .tab-content>.tab-pane {
+    display: block;
+    opacity: 1;
+  }
+}
